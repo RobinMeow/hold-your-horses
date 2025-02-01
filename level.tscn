@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dqbmu53gjhbgh"]
+[gd_scene load_steps=3 format=3 uid="uid://ycwurgjlolna"]
 
 [ext_resource type="Script" path="res://Camera3d.cs" id="1_dqgtp"]
+[ext_resource type="MeshLibrary" uid="uid://fnnsq64umuxh" path="res://Fields/Fields.tres" id="2_wx5ko"]
 
 [node name="Level" type="Node3D"]
 
@@ -11,3 +12,6 @@ zoomRange = 2.311
 
 [node name="Camera3D" type="Camera3D" parent="Node3D"]
 transform = Transform3D(1, -0.000163348, 0.000100878, 2.59891e-05, 0.635782, 0.771869, -0.000190219, -0.771869, 0.635782, 0, 1.44953, 1.41939)
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("2_wx5ko")
