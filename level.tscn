@@ -4,6 +4,9 @@
 
 [node name="Level" type="Node3D"]
 
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.168816, 0.985648, 0, -0.985648, 0.168816, 0, 2.8672, 0.704865)
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.44415, 0)
 script = ExtResource("1_dqgtp")
+
+[node name="Camera3D" type="Camera3D" parent="Node3D"]
+transform = Transform3D(1, -0.000163348, 0.000100878, 2.59891e-05, 0.635782, 0.771869, -0.000190219, -0.771869, 0.635782, 0, 1.44953, 1.41939)
