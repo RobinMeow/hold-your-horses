@@ -15,3 +15,12 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# .vs
+.vs/
+
+# .vscode
+.vscode/
+
+# Visual Studio
+**.sln
