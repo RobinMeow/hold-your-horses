@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbmo4onpbqa5e"]
+
+[ext_resource type="Material" uid="uid://dw7wgplxcf3dc" path="res://Fields/GroundMaterial.tres" id="1_dggn0"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qayhv"]
+
+[node name="GroundMesh" type="MeshInstance3D"]
+material_override = ExtResource("1_dggn0")
+mesh = SubResource("PlaneMesh_qayhv")
+surface_material_override/0 = ExtResource("1_dggn0")
