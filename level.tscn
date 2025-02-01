@@ -7,6 +7,7 @@
 [node name="Node3D" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.44415, 0)
 script = ExtResource("1_dqgtp")
+zoomRange = 2.311
 
 [node name="Camera3D" type="Camera3D" parent="Node3D"]
 transform = Transform3D(1, -0.000163348, 0.000100878, 2.59891e-05, 0.635782, 0.771869, -0.000190219, -0.771869, 0.635782, 0, 1.44953, 1.41939)
